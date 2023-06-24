@@ -1,0 +1,9 @@
+#include <stdio.h>
+double main(){
+double a,b;
+printf("Digite dois numeros: \n");
+scanf("%lf %lf", &a, &b);
+printf("A multiplicação dos numeros eh: %lf\n", a*b);
+system("pause");
+return 0;
+}
