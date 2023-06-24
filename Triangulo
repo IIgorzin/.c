@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    float area, base, altura;
+    printf("declare o tamanho da area: \n");
+    scanf("%f", &area);
+    printf("declare o tamanho da base: \n");
+    scanf("%f", &base);
+    printf("declare o tamanho da altura: \n");
+    scanf("%f", &altura);
+
+    float resultado = area + base + altura;
+
+    printf("o tamanho do triangulo e: %f\n", resultado);
+    system("pause");
+    return 0;
+}
